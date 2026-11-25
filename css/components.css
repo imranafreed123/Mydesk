@@ -146,3 +146,5 @@ section{box-shadow:var(--lit),inset 0 0 0 1px rgba(255,255,255,.02),-16px 22px 3
 @media(max-width:560px){#fo.food-dialog{padding:19px 15px}#fo.food-dialog .food-pop-head{align-items:flex-start}#fo.food-dialog .food-pop-tools select{flex-basis:112px}#fo.food-dialog .fr{gap:7px;flex-wrap:wrap}#fo.food-dialog .fr .nm{flex:1 1 calc(100% - 52px)}#fo.food-dialog .fr .stp{margin-left:42px;min-width:110px}#fo.food-dialog .fr button.p{margin-left:auto}}
 @media(max-width:900px){.todaystats{top:172px;right:10px;width:164px;font-size:10.5px}.cascade .cas-col{flex-basis:190px}}
 @media(max-width:600px){.todaystats{position:static;width:auto;margin:8px 0 14px;display:flex;flex-wrap:wrap;gap:8px 14px}.cascade .cas-col{flex-basis:190px;max-height:300px}}
+
+.today-datebar{gap:7px;margin:2px 0 14px}.today-datebar button{min-width:36px;padding:6px 11px}.today-datebar input{width:168px;max-width:52vw;background:rgba(12,14,18,.58);border-color:rgba(235,240,250,.18);backdrop-filter:blur(12px)}.today-datebar button:disabled{opacity:.38;cursor:default}
